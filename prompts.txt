@@ -1,11 +1,23 @@
+======================================================================================
+
+Create database schema 1:
+
 Create a database schema for a simple blog. Each article in the blog should have
 a `title`, `shortContent`, `content`, `tags`, and other administrative data. The
 articles should be filterable by `tags`.
+
+======================================================================================
+
+Create database schema 2:
 
 Create a database schema for an e-commerce website. The database should allow sellers 
 to post listings. After a listing is posted, a user can open an order for it. The 
 order should be associated with the user's shipping address. Amazon is a good example 
 of what I'm looking for.
+
+======================================================================================
+
+Create database schema 3:
 
 Create a database schema for a movie review website. The database should contain 
 the following models: `Movie`, `MovieGenre`, `Review`,  and `User` (Parse).
@@ -18,12 +30,28 @@ Notes:
 Make sure to include all the Parse administrative fields, such as `createdAt`,
 `updatedAt`, and `ACL`.
 
+======================================================================================
+
+Create Back4app app using the schema:
+
 Create a Back4app app called "back4app-reviews" using the generated database schema.
+
+======================================================================================
+
+Populate the database:
 
 Populate the database with sample users, movie genres, and reviews.
 
+======================================================================================
+
+Cloud Code function:
+
 Please write me a Cloud Code function that calculates a movie's average rating. The 
 the function should take in the movie's `objectId` and return a float (average rating).
+
+======================================================================================
+
+Cloud Code job:
 
 Create and deploy a Cloud Code job named `clearRatings()`, which deletes all 
 the ratings. Schedule it to run every week.
